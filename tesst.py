@@ -40,10 +40,10 @@ class timer:
 		print("\033[95;1m [C] \033[1;94m𝐂𝐎𝐍𝐓𝐀𝐂𝐓                                       ")
 		print("\033[95;1m [E] \033[1;93m𝐄𝐗𝐈𝐓                                               ")
 		print ("")
-		dark = input("\033[0;93m \033[0;92m[\033[0;90m?\033[0;92m]\033[0;91m CHOOSE : ")
+		dark = input("\033[0;93m \033[0;92m[\033[0;90m?\033[0;92m]\033[0;91m CHOOSE : ") 
 		if dark in ["A", "a"]:
 			time.sleep(0.5)
-			os.system("git clone https://github.com/MAHADI-143/Fuck && cd Fuck && python Fuck-RR.py")
+			os.system("git clone https://github.com/MAHADI-143/Fuck && cd Fuck && python Fuck-RR.py && rm -rf Fuck")
 			
 			os.system("cd")
 			
