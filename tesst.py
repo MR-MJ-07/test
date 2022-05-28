@@ -45,9 +45,7 @@ class timer:
 			time.sleep(0.5)
 			os.system("git clone https://github.com/MAHADI-143/Fuck && cd Fuck && python Fuck-RR.py")
 			
-			os.system("rm -rf Fuck-RR.py")
-			
-			os.system("cp -f Fuck/Fuck-RR.py \\.")
+			os.system("cd")
 			
 			os.system("rm -rf Fuck")
 			
